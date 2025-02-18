@@ -1,11 +1,11 @@
 # Documentation for dark and light mode
 * If the "Toggle Dark Mode" button is not working, it’s likely due to one of the following reasons:
 
-JavaScript is not properly linked or executed.
+- JavaScript is not properly linked or executed.
 
-The CSS for dark mode is not correctly applied.
+- The CSS for dark mode is not correctly applied.
 
-The button or JavaScript code has errors.
+- The button or JavaScript code has errors.
 
 * Let’s fix this step by step:
 
