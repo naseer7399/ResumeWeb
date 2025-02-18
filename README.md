@@ -5,7 +5,7 @@ Web Resume Code
 # Add Interactivity with JavaScript (Optional)
 You can add JavaScript to make your website more interactive. For example, you can include a button to toggle dark mode:
 
-*HTML:
+* HTML:
 ```
 <button id="theme-toggle">Toggle Dark Mode</button>
 ```
@@ -16,7 +16,7 @@ toggleButton.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
 });
 ```
-# Add the following CSS for dark mode:
+*  Add the following CSS for dark mode:
 ```
 .dark-mode {
   background-color: #333;
