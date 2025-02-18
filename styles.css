@@ -1,3 +1,4 @@
+/* Light mode (default) */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -5,12 +6,6 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
-}
-
-.container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
 }
 
 header {
@@ -21,40 +16,16 @@ header {
   border-bottom: #77aaff 3px solid;
 }
 
-header h1 {
-  text-align: center;
-  margin: 0;
-  font-size: 36px;
+/* Dark mode */
+body.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
 }
 
-header p {
-  text-align: center;
-  font-size: 18px;
+body.dark-mode header {
+  background-color: #222;
 }
 
-section {
-  padding: 20px 0;
-}
-
-section h2 {
-  color: #333;
-  border-bottom: 2px solid #77aaff;
-  padding-bottom: 10px;
-}
-
-section h3 {
-  color: #555;
-}
-
-ul {
-  list-style-type: square;
-  margin-left: 20px;
-}
-
-footer {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  margin-top: 20px;
+body.dark-mode section h2 {
+  color: #77aaff;
 }
