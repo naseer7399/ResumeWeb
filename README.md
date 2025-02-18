@@ -16,3 +16,18 @@ toggleButton.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
 });
 ```
+# Add the following CSS for dark mode:
+```
+.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.dark-mode header {
+  background-color: #222;
+}
+
+.dark-mode section h2 {
+  color: #77aaff;
+}
+```
