@@ -1,3 +1,4 @@
+# Documentation for dark and light mode
 * If the "Toggle Dark Mode" button is not working, it’s likely due to one of the following reasons:
 
 JavaScript is not properly linked or executed.
